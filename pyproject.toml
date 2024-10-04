@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "embedding"
+version = "0.1.0"
+description = "Embedding module for the Agent Artificial Module Validator"
+authors = ["Richard <bakobiibizo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+loguru = "^0.7.2"
+numpy = "^2.1.1"
+tiktoken = "^0.8.0"
+transformers = "^4.45.1"
+torch = "^2.4.1"
+torchaudio = "^2.4.1"
+torchvision = "^0.19.1"
+scipy = "^1.14.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

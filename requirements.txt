@@ -1,0 +1,11 @@
+fastapi==0.115.0
+huggingface-hub==0.25.1
+loguru==0.7.2
+numpy==2.1.1
+scipy==1.14.1
+tiktoken==0.8.0
+torch==2.4.1
+torchaudio==2.4.1
+torchvision==0.19.1
+transformers==4.45.1
+uvicorn==0.31.0
